@@ -1,0 +1,25 @@
+.header{
+    background-color: #1F2937;
+    display: flex;
+}
+
+.header div{
+    flex: auto;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header div.hlogo{
+    flex-basis: 50%;
+}
+
+.header div a{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
+.footer{
+    display: flex;
+}
+ 
