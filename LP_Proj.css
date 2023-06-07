@@ -7,6 +7,8 @@ body{
     background-color: #1F2937;
     display: flex;
     flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 50px;
 }
 
 .header div{
@@ -30,6 +32,19 @@ body{
 .first_section {
     background-color: #1F2937;
     height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+}
+
+.first_section #text{
+    padding: 100px;
+}
+
+.first_section #image{
+    padding: 100px;
+    background-color: #E5E7EB;
 }
 
 .second_section {
@@ -42,11 +57,20 @@ body{
 }
 
 .fourth_section {
+    padding: 10px;
     height: 100px;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
 }
 
+
 .footer{
-    display: flex;
     background-color: #1F2937;
 }
  
+.footer p{
+    text-align: center;
+    font-size: 18px;
+    color: #E5E7EB
+}
